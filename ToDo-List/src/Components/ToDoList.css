@@ -1,0 +1,21 @@
+.actual_todo_list_content{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.todo_list_items_content{
+    list-style: none;
+    padding: 0;
+}
+.todo_actions_content{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.circle_size{
+    font-size: 20px !important;
+}
+.todo_list_items_content li{
+    font-size: 13px;
+    font-weight: 600;
+}
