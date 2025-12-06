@@ -42,7 +42,7 @@ const ToDo = () => {
               strokeWidth={2}
               size={25}
             />
-            To-Do List
+            Task Tracker
           </h2>
           <div className="todo_input_getter">
             <input
@@ -90,10 +90,16 @@ const ToDo = () => {
                         />
                       )}
                     </span>
-                    <span className={`todo_task_text ${item.completed ? "completed" : ""}`}>{item.task}</span>
+                    <span
+                      className={`todo_task_text ${
+                        item.completed ? "completed" : ""
+                      }`}
+                    >
+                      {item.task}
+                    </span>
                     <span
                       className="todo_delete_icon"
-                      style={{ cursor: "pointer" ,marginLeft: "auto"}}
+                      style={{ cursor: "pointer", marginLeft: "auto" }}
                     >
                       <Trash2
                         color={"red"}
